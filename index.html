@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahibur Rahaman - Web Developer, Programmer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo copy.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Protfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Graphic / Web  Designer</p>
+                <h1>Hi, I'm <span> Sahibur </span> <br> From Barasat</h1>
+            </div>
+        </div>
+    </div>
+    <div  id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos quas libero quod delectus quasi quibusdam suscipit vel ipsam, modi optio numquam velit fugit a consequuntur, nam vitae! Fugiat, velit voluptatem mollitia reiciendis molestiae quae illum nam obcaecati reprehenderit dolor dicta?</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web /App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>No Expreience</span><br>Freshers</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2023 - Till running</span><br>Camellia School of Engineering & Technology</li>
+                            <li><span>2019 - 2020</span><br>Natni High school</li>
+                            <li><span>2017 - 2018</span><br>Suria Moulana Azad High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus eligendi fugit voluptas eos ullam porro itaque odit voluptate ad reprehenderit, nisi facilis provident quod culpa asperiores iure iste molestiae explicabo accusantium cupiditate non suscipit. Delectus cum quod harum assumenda deleniti!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus eligendi fugit voluptas eos ullam porro itaque odit voluptate ad reprehenderit, nisi facilis provident quod culpa asperiores iure iste molestiae explicabo accusantium cupiditate non suscipit. Delectus cum quod harum assumenda deleniti!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus eligendi fugit voluptas eos ullam porro itaque odit voluptate ad reprehenderit, nisi facilis provident quod culpa asperiores iure iste molestiae explicabo accusantium cupiditate non suscipit. Delectus cum quod harum assumenda deleniti!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente quod quos cupiditate, eos a assumenda, nam laboriosam incidunt repellat eum consequatur accusamus tempore reprehenderit consectetur doloremque dolor. Fugiat nulla fuga, perferendis tenetur ab blanditiis quo. Sunt, perspiciatis repellendus. Tempora, fugiat.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3> Music app</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente quod quos cupiditate, eos a assumenda, nam laboriosam incidunt repellat eum consequatur accusamus tempore reprehenderit consectetur doloremque dolor. Fugiat nulla fuga, perferendis tenetur ab blanditiis quo. Sunt, perspiciatis repellendus. Tempora, fugiat.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online shopping app</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente quod quos cupiditate, eos a assumenda, nam laboriosam incidunt repellat eum consequatur accusamus tempore reprehenderit consectetur doloremque dolor. Fugiat nulla fuga, perferendis tenetur ab blanditiis quo. Sunt, perspiciatis repellendus. Tempora, fugiat.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> rahamansahibur93@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +91 9007519276</p>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                    <a href=""><i class="fab fa-github"></i></a>
+                </div>
+                <a href="images/my-cv.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright  Sahibur. Made with <i class="fas fa-heart"></i>by vs code</p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx9pauSXPl2HbWQd9ogKw_Dr9oTX-x3vvh2Ymeaqanc2PuOCMSOeR6MOuYCLQ46-VFd/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = " Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
